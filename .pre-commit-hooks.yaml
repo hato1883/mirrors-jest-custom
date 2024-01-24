@@ -1,10 +1,10 @@
--   id: eslint
-    name: eslint
-    description: ''
-    entry: eslint
+-   id: jest
+    name: jest
+    description: 'Runs all jest test'
+    entry: jest
     language: node
-    'types': [javascript]
+    types: [javascript]
     args: []
     require_serial: false
-    additional_dependencies: ["eslint@9.0.0-alpha.1"]
+    additional_dependencies: ["jest@29.7.0"]
     minimum_pre_commit_version: '0'
