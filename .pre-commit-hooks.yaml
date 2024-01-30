@@ -1,7 +1,7 @@
 -   id: jest
     name: jest
     description: 'Runs all jest test'
-    entry: jest
+    entry: jest --passWithNoTests
     language: node
     types: [javascript]
     args: []
